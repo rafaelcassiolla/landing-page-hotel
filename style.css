@@ -14,12 +14,17 @@
   src: url(assets/fonts/fraunces/Fraunces-Italic-VariableFont_SOFT\,WONK\,opsz\,wght.ttf);
 }
 
-body {
+html, body {
   background-color: #fbf6f0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
   display: flex;
+  width: 100%;
 }
 
 .sidebar {
@@ -36,8 +41,12 @@ body {
   width: 130px;
 }
 
+.borda{
+  border-top: #c4beb8 solid 1px;
+  margin: 0px 10px;
+}
+
 .sidebar nav {
-  border-top: #c4beb8 dashed 1px;
   width: 100%;
   padding-top: 10px;
 }
@@ -51,26 +60,28 @@ body {
 }
 
 .sidebar nav ul li {
-  height: 35px;
+  height: 40px;
   display: flex;
   justify-content: flex-start;
   width: 100%;
 }
 
 .sidebar nav ul a {
-    text-decoration: none;
-    color: #474341;
-    display: flex;
-    align-items: center;
-    width: 100%;
-    gap: 4px;
-    padding-left: 10px;
-    margin: 0px 10px;
-    border-radius: 8px;
+  text-decoration: none;
+  color: #474341;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 4px;
+  padding-left: 10px;
+  margin: 0px 10px;
+  border-radius: 8px;
+  border: 2px solid transparent;
 }
 
-.sidebar nav ul a:hover{
-    background-color: #fff;
+.sidebar nav ul a:hover {
+  background-color: #fff;
+  border: #a56f57 solid 2px;
 }
 
 .sidebar nav ul a img {
@@ -120,4 +131,42 @@ body {
   color: #c4beb8;
   font-family: DMMono-Medium;
   font-size: 12px;
+}
+
+main{
+    flex: 1;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.bienvenue {
+  padding: 20px;
+}
+
+.bienvenue p {
+  font-size: 14px;
+  font-family: DMMono-Medium;
+  color: #c4beb8;
+  padding-bottom: 10px;
+}
+
+.bienvenue h1 {
+  font-size: 40px;
+  font-family: Fraunces;
+  color: #28231d;
+}
+
+.bienvenue span {
+  color: #a53d1f;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  margin-right: 0;
 }
