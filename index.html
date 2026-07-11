@@ -16,6 +16,15 @@
       <aside class="sidebar">
         <div class="pt-cima">
           <img src="assets/images/logo.svg" alt="Logo Hotel" />
+          <!-- Botão que abre o menu no Mobile -->
+          <button id="menu-toggle" class="menu-hamburger">
+            <img src="assets/images/icon-menu.svg" alt="Abrir Menu" />
+          </button>
+
+          <!-- Botão de fechar (X) que deve ficar DENTRO da sua Sidebar/Menu -->
+          <button id="menu-close" class="menu-close-btn">
+            <img src="assets/images/icon-close.svg" alt="Fechar Menu" />
+          </button>
           <div class="borda"></div>
           <nav>
             <ul>
@@ -75,7 +84,6 @@
       </aside>
 
       <main>
-
         <header>
           <div class="bienvenue">
             <p>BOOKING | CONFIRMED</p>
@@ -87,10 +95,146 @@
           </div>
         </header>
 
-        <section class="cards">
+        <section class="container-cards">
+          <div class="card left">
+            <div class="receipt-header">
+              <span class="tag">RECEIPT</span>
+              <span class="receipt-id">№ MS-2026<br />0421-AH</span>
+            </div>
 
+            <h2>Your stay</h2>
+
+            <div class="booking-dates">
+              <div class="date-block">
+                <span class="label">CHECK IN</span>
+                <span class="day">25 Apr</span>
+                <span class="time">Saturday • 15:00</span>
+              </div>
+              <div class="date-block">
+                <span class="label">CHECK OUT</span>
+                <span class="day">29 Apr</span>
+                <span class="time">Wednesday • 11:00</span>
+              </div>
+            </div>
+
+            <ul class="receipt-details">
+              <li>
+                <span>Room • La Garrigue × 4 nights</span> <span>€ 620.00</span>
+              </li>
+              <li><span>Breakfast × 2 guests</span> <span>€ 96.00</span></li>
+              <li><span>Tourist tax</span> <span>€ 14.40</span></li>
+            </ul>
+
+            <div class="receipt-total">
+              <span class="label">TOTAL PAID</span>
+              <span class="price">€ 730.40</span>
+            </div>
+
+            <div class="receipt-footer">
+              <span class="payment-method">PAID • WISE • GBP</span>
+              <div class="barcode">||||| | |||| || ||| |</div>
+            </div>
+          </div>
+
+          <div class="center-sun">
+            <img
+              src="assets/images/illustration-sun.svg"
+              alt="Sol"
+              class="sun-image"
+            />
+            <span class="hover-text">✦ HOVER TO FAN ✦</span>
+          </div>
+
+          <div class="card right">
+            <div class="welcome-header">
+              <span class="tag">WELCOME CARD</span>
+              <div class="sun-icon">☀️</div>
+            </div>
+
+            <div class="welcome-body">
+              <p class="subtitle">A note from your host,</p>
+              <h2>Margaux.</h2>
+              <p class="message">
+                We're so glad you're coming. The shutters will be open, the
+                lemonade cold, and the cat - Poivre - pretending not to notice
+                you.
+              </p>
+            </div>
+
+            <div class="welcome-footer">
+              <span class="label">ROOM</span>
+              <span class="room-name">La Garrigue</span>
+            </div>
+          </div>
         </section>
 
+        <section class="info-row">
+          <!-- Card 01 - Arrival -->
+          <article class="info-card">
+            <div class="info-header">
+              <div class="info-title-group text-arrival">
+                <span class="info-icon">🔑</span>
+                <span class="info-tag">ARRIVAL</span>
+              </div>
+              <span class="info-number text-arrival">01</span>
+            </div>
+            <div class="info-body">
+              <h3>Check-in from 15:00</h3>
+              <span class="info-subtitle">Sat, 25 April</span>
+              <p>
+                Ring the brass bell by the blue door. If we're at the market,
+                the key is in the terracotta pot by the olive tree.
+              </p>
+            </div>
+          </article>
+
+          <!-- Card 02 - WiFi -->
+          <article class="info-card">
+            <div class="info-header">
+              <div class="info-title-group text-wifi">
+                <span class="info-icon">📶</span>
+                <span class="info-tag">WIFI</span>
+              </div>
+              <span class="info-number text-wifi">02</span>
+            </div>
+            <div class="info-body">
+              <h3>Le Soleil . Guest</h3>
+              <span class="info-subtitle">Password below</span>
+              <div class="wifi-details">
+                <div class="wifi-row">
+                  <span>NETWORK</span>
+                  <strong>Le Soleil . Guest</strong>
+                </div>
+                <div class="wifi-row">
+                  <span>PASSWORD</span>
+                  <div class="password-box">
+                    <strong>soleil-2026</strong>
+                    <button class="copy-btn">COPY</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 03 - Breakfast -->
+          <article class="info-card">
+            <div class="info-header">
+              <div class="info-title-group text-breakfast">
+                <span class="info-icon">☕</span>
+                <span class="info-tag">BREAKFAST</span>
+              </div>
+              <span class="info-number text-breakfast">03</span>
+            </div>
+            <div class="info-body">
+              <h3>Served 8 – 10:30</h3>
+              <span class="info-subtitle">On the terrace</span>
+              <p>
+                Fresh figs, Marseille honey, pain au levain, and espresso.
+                Gluten-free option? Leave a note the night before.
+              </p>
+            </div>
+          </article>
+        </section>
       </main>
     </div>
   </body>

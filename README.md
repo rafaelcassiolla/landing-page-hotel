@@ -20,3 +20,14 @@ O projeto foi construído do zero focando em pixel-perfect design e boas prátic
 * **Design Responsivo:** Adaptação da interface para garantir uma ótima experiência tanto em desktops quanto em dispositivos móveis.
 
 ---
+
+## 💻 Compatibilidade e Design Scope
+
+Este projeto foi planejado e desenvolvido **exclusivamente para resoluções Desktop** (telas acima de 1050px). 
+
+### Por que apenas Desktop?
+O objetivo principal deste repositório foi explorar layouts complexos de sobreposição, interações avançadas de CSS (como o efeito *card fan* no hover) e posicionamento absoluto milimétrico. Como a experiência visual depende diretamente da proporção de telas horizontais para manter o enquadramento perfeito (sem barras de rolagem), o design foi blindado para entregar a melhor fidelidade visual apenas em computadores.
+
+*   **Resolução ideal:** 1440x900 ou superior.
+*   **Resolução mínima suportada:** 1050x700 (com adaptação de escala).
+*   *Nota: Este projeto não possui foco em responsividade mobile devido à natureza do layout proposto.*
