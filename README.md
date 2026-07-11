@@ -1,6 +1,6 @@
 # 🏨 Maison Soleil - Frontend Mentor Challenge
 
-Este projeto é a minha resolução para um dos desafios propostos na plataforma [Frontend Mentor](https://www.frontendmentor.io/). O objetivo foi construir um dashboard/painel de confirmação de reserva de hotel moderno e responsivo, buscando a máxima fidelidade ao design original proposto pelo desafio.
+Este projeto é a minha resolução para um dos desafios propostos na plataforma [Frontend Mentor](https://www.frontendmentor.io/). O objetivo foi construir um dashboard/painel de confirmação de reserva de hotel moderno, buscando a máxima fidelidade ao design original proposto pelo desafio.
 
 ---
 
